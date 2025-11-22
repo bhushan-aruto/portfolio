@@ -9,6 +9,7 @@ import { ProjectsSection } from "@/components/projects-section"
 import { TechnicalSkillsSection } from "@/components/technical-skills-section"
 import { ExtracurricularSection } from "@/components/extracurricular-section"
 import { Footer } from "@/components/footer"
+// import GoogleGeminiEffectDemo from "@/components/google-gemini-effect-demo"
 
 export default function Page() {
   return (
@@ -23,6 +24,7 @@ export default function Page() {
         <ExtracurricularSection />
       </main>
       <Footer />
+      {/* <GoogleGeminiEffectDemo /> */}
     </div>
   )
 }
