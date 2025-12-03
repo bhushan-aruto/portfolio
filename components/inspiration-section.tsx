@@ -26,15 +26,8 @@ export function InspirationSection() {
                             </div>
                         </div>
 
-                        {/* Right content - 3D Robot Scene */}
-                        {/* <div className="flex-1 relative overflow-hidden min-h-[450px] sm:min-h-[400px] md:min-h-[500px] lg:min-h-auto">
-                            <SplineScene
-                                scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
-                                className="w-full h-full"
-                            />
-                        </div> */}
                         <div
-                            className="flex-1 relative overflow-hidden h-[55vh] sm:h-[60vh] md:min-h-[500px] lg:min-h-auto">
+                            className="w-full lg:flex-1 relative overflow-hidden h-[40vh] sm:h-[55vh] md:h-[500px] lg:h-[600px]" >
                             <SplineScene
                                 scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
                                 className="w-full h-full"
